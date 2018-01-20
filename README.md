@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/v/XWS.PeopleDataGenerator.svg)](https://www.nuget.org/packages/XWS.PeopleDataGenerator/1.0.0)
+
 # People Data Generator
 Need to load a bunch of test data to represent people (e.g. name, address, phone, etc.)? Wish it looked realistic? People Data Generator is what you need.
 
