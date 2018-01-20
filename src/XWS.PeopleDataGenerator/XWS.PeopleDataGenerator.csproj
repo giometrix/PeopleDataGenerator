@@ -11,6 +11,10 @@
     <Product>XWS.PeopleDataGenerator</Product>
     <AssemblyVersion>1.0.4.0</AssemblyVersion>
     <FileVersion>1.0.4.0</FileVersion>
+    <PackageProjectUrl>https://github.com/giometrix/PeopleDataGenerator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/giometrix/PeopleDataGenerator</RepositoryUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/giometrix/PeopleDataGenerator/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
