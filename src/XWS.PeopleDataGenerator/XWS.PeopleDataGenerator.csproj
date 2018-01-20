@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A simple library for generating realistic looking people information (name, email, phone, address) for testing purposes.</Description>
+    <PackageReleaseNotes>test test-data</PackageReleaseNotes>
+    <PackageId>XWS.PeopleDataGenerator</PackageId>
+    <Authors>Giovanni Galbo</Authors>
+    <Company>Giovanni Galbo</Company>
+    <Product>XWS.PeopleDataGenerator</Product>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\areacodes.csv" />
+    <None Remove="Data\CSV_Database_of_First_Names.csv" />
+    <None Remove="Data\CSV_Database_of_Last_Names.csv" />
+    <None Remove="Data\states.csv" />
+    <None Remove="Data\zips_v2.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\areacodes.csv" />
+    <EmbeddedResource Include="Data\CSV_Database_of_First_Names.csv">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\CSV_Database_of_Last_Names.csv" />
+    <EmbeddedResource Include="Data\states.csv" />
+    <EmbeddedResource Include="Data\zips_v2.csv" />
+  </ItemGroup>
+
+</Project>

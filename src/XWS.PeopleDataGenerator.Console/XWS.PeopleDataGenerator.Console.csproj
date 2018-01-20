@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <FileVersion>1.0.9.0</FileVersion>
+    <AssemblyName>XWS.PeopleDataGenerator.Console</AssemblyName>
+    <RootNamespace>XWS.PeopleDataGenerator.Console</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XWS.PeopleDataGenerator\XWS.PeopleDataGenerator.csproj" />
+  </ItemGroup>
+
+</Project>
